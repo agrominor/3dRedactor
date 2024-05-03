@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="\">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>main module &#8212; 3DRedactor 1.14.4 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b3523f8e" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=039e1c02" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=408384a4"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-main">
+<span id="main-module"></span><h1>main module<a class="headerlink" href="#module-main" title="Permalink to this heading">¶</a></h1>
+<p>Модуль моделирования объектов.</p>
+<p>Этот модуль содержит класс ModelingModule, который предоставляет методы для создания и редактирования 3D-моделей объектов.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="main.AnimationModule">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">main.</span></span><span class="sig-name descname"><span class="pre">AnimationModule</span></span><a class="reference internal" href="_modules/main.html#AnimationModule"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.AnimationModule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Класс AnimationModule содержит методы для анимации объектов.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="main.AnimationModule.rig_animation">
+<span class="sig-name descname"><span class="pre">rig_animation</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/main.html#AnimationModule.rig_animation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.AnimationModule.rig_animation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Создание и настройка скелетной анимации.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="main.AnimationModule.set_keyframe">
+<span class="sig-name descname"><span class="pre">set_keyframe</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/main.html#AnimationModule.set_keyframe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.AnimationModule.set_keyframe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Установка ключевых кадров для анимации объектов.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="main.CameraModule">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">main.</span></span><span class="sig-name descname"><span class="pre">CameraModule</span></span><a class="reference internal" href="_modules/main.html#CameraModule"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.CameraModule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Класс CameraModule содержит методы для работы с камерами.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="main.CameraModule.adjust_depth_of_field">
+<span class="sig-name descname"><span class="pre">adjust_depth_of_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/main.html#CameraModule.adjust_depth_of_field"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.CameraModule.adjust_depth_of_field" title="Permalink to this definition">¶</a></dt>
+<dd><p>Настройка глубины резкости для камеры.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="main.CameraModule.set_camera_position">
+<span class="sig-name descname"><span class="pre">set_camera_position</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/main.html#CameraModule.set_camera_position"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.CameraModule.set_camera_position" title="Permalink to this definition">¶</a></dt>
+<dd><p>Установка позиции и ориентации камеры в сцене.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="main.ModelingModule">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">main.</span></span><span class="sig-name descname"><span class="pre">ModelingModule</span></span><a class="reference internal" href="_modules/main.html#ModelingModule"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.ModelingModule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Класс ModelingModule содержит методы для моделирования объектов.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="main.ModelingModule.boolean_union">
+<span class="sig-name descname"><span class="pre">boolean_union</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/main.html#ModelingModule.boolean_union"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.ModelingModule.boolean_union" title="Permalink to this definition">¶</a></dt>
+<dd><p>Выполнение булевой операции объединения объектов.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="main.ModelingModule.create_mesh">
+<span class="sig-name descname"><span class="pre">create_mesh</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/main.html#ModelingModule.create_mesh"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.ModelingModule.create_mesh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Создание новой сетки для моделирования.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="main.ModelingModule.extrude_faces">
+<span class="sig-name descname"><span class="pre">extrude_faces</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/main.html#ModelingModule.extrude_faces"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.ModelingModule.extrude_faces" title="Permalink to this definition">¶</a></dt>
+<dd><p>Выдавливание выбранных граней.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="main.TexturingModule">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">main.</span></span><span class="sig-name descname"><span class="pre">TexturingModule</span></span><a class="reference internal" href="_modules/main.html#TexturingModule"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.TexturingModule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Класс TexturingModule содержит методы для текстурирования объектов.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="main.TexturingModule.adjust_uv_mapping">
+<span class="sig-name descname"><span class="pre">adjust_uv_mapping</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/main.html#TexturingModule.adjust_uv_mapping"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.TexturingModule.adjust_uv_mapping" title="Permalink to this definition">¶</a></dt>
+<dd><p>Редактирование UV-развертки для корректного отображения текстур.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="main.TexturingModule.apply_texture">
+<span class="sig-name descname"><span class="pre">apply_texture</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/main.html#TexturingModule.apply_texture"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#main.TexturingModule.apply_texture" title="Permalink to this definition">¶</a></dt>
+<dd><p>Наложение текстуры на объект.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">3DRedactor</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2024, Aleks.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/main.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

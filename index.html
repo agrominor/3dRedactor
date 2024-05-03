@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документация по пользовательскому интерфейсу</title>
+    <link rel="stylesheet" href="lab6.css">
+</head>
+<body>
+    <header>
+        <h1>Документация по пользовательскому интерфейсу</h1>
+    </header>
+
+    <section class="introduction">
+        <h2>Введение</h2>
+        <p>
+            Добро пожаловать в руководство пользователя к кроссплатформенному 3D редактору! Этот редактор предоставляет множество инструментов для создания, моделирования, текстурирования, анимации и оптимизации 3D-моделей. Ниже приведены основные модули и инструкции по их использованию.
+        </p>
+    </section>
+
+    <section class="branch">
+        <h2>Основные инструменты редактирования</h2>
+        <p>
+            <strong>Модуль моделирования объектов (ModelingModule):</strong><br>
+            create_mesh(): Создание новой сетки для моделирования.<br>
+            extrude_faces(): Выдавливание выбранных граней.<br>
+            boolean_union(): Выполнение булевой операции объединения объектов.
+        </p>
+        <p>
+            <strong>Модуль текстурирования (TexturingModule):</strong><br>
+            apply_texture(): Наложение текстуры на объект.<br>
+            adjust_uv_mapping(): Редактирование UV-развертки для корректного отображения текстур.
+        </p>
+        <p>
+            <strong>Модуль анимации объектов (AnimationModule):</strong><br>
+            set_keyframe(): Установка ключевых кадров для анимации объектов.<br>
+            rig_animation(): Создание и настройка скелетной анимации.
+        </p>
+        <p>
+            <strong>Модуль работы с камерами (CameraModule):</strong><br>
+            set_camera_position(): Установка позиции и ориентации камеры в сцене.<br>
+            adjust_depth_of_field(): Настройка глубины резкости для камеры.
+        </p>
+    </section>
+
+    <section class="branch">
+        <h2>Оптимизация и настройки</h2>
+        <p>
+            <strong>Модуль оптимизации геометрии (GeometryOptimizationModule):</strong><br>
+            merge_vertices(): Объединение смежных вершин для сокращения количества полигонов.<br>
+            reduce_polygons(): Уменьшение числа полигонов в модели.
+        </p>
+        <p>
+            <strong>Модуль оптимизации текстур (TextureOptimizationModule):</strong><br>
+            compress_texture(): Сжатие текстур для уменьшения занимаемой памяти.<br>
+            bake_lighting(): Подсчет освещения и сохранение его в текстуру.
+        </p>
+        <p>
+            <strong>Модуль настройки физической симуляции (PhysicsSettingsModule):</strong><br>
+            set_gravity(): Установка значения гравитации в сцене.<br>
+            adjust_collision_settings(): Настройка параметров коллизий между объектами.
+        </p>
+    </section>
+
+    <section class="branch">
+        <h2>Дополнительные возможности и пользовательский интерфейс</h2>
+        <p>
+            <strong>Модуль работы с частицами (ParticleSystemModule):</strong><br>
+            create_particle_system(): Создание системы частиц для добавления эффектов в сцену.<br>
+            adjust_particle_behavior(): Настройка параметров поведения частиц.
+        </p>
+        <p>
+            <strong>Модуль создания пользовательских инструментов (CustomToolsModule):</strong><br>
+            develop_custom_script(): Разработка собственных скриптов и плагинов для расширения функциональности.<br>
+            integrate_external_plugins(): Интеграция сторонних плагинов в редактор.
+        </p>
+        <p>
+            <strong>Модуль управления аудиоэффектами (AudioModule):</strong><br>
+            add_sound_effects(): Добавление звуковых эффектов к объектам.<br>
+            adjust_audio_settings(): Настройка параметров звуковой системы.
+        </p>
+    </section>
+
+    <footer>
+        <p>Для запуска необходимо выполнить соответствующий модуль из файла main.py. Пользуйтесь этим руководством, чтобы создавать потрясающие 3D-модели и реализовывать свои творческие идеи в виртуальном мире!</p>
+        <h3>Ссылки на другие ресурсы:</h3>
+        <ul>
+            <li><a href="https://github.com/agrominor/3dRedactor ">Ссылка на GitHub</a></li>
+            <li><a href="html/index.html">Руководство программиста</a></li>
+            <li><a href="Лабораторная работа № 5.docx">Руководство пользователя</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

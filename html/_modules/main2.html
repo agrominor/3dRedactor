@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="\">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>main2 &#8212; 3DRedactor 1.14.4 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b3523f8e" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=039e1c02" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js?v=408384a4"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=4825356b"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for main2</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Модуль оптимизации геометрии.</span>
+
+<span class="sd">Этот модуль содержит класс GeometryOptimizationModule, который предоставляет методы для оптимизации геометрии модели.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="GeometryOptimizationModule"><a class="viewcode-back" href="../main2.html#main2.GeometryOptimizationModule">[docs]</a><span class="k">class</span> <span class="nc">GeometryOptimizationModule</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Класс GeometryOptimizationModule содержит методы для оптимизации геометрии модели.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="GeometryOptimizationModule.merge_vertices"><a class="viewcode-back" href="../main2.html#main2.GeometryOptimizationModule.merge_vertices">[docs]</a>    <span class="k">def</span> <span class="nf">merge_vertices</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Объединение смежных вершин для сокращения количества полигонов.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="GeometryOptimizationModule.reduce_polygons"><a class="viewcode-back" href="../main2.html#main2.GeometryOptimizationModule.reduce_polygons">[docs]</a>    <span class="k">def</span> <span class="nf">reduce_polygons</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Уменьшение числа полигонов в модели.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">pass</span></div></div>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Модуль оптимизации текстур.</span>
+
+<span class="sd">Этот модуль содержит класс TextureOptimizationModule, который предоставляет методы для оптимизации текстур модели.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="TextureOptimizationModule"><a class="viewcode-back" href="../main2.html#main2.TextureOptimizationModule">[docs]</a><span class="k">class</span> <span class="nc">TextureOptimizationModule</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Класс TextureOptimizationModule содержит методы для оптимизации текстур модели.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="TextureOptimizationModule.compress_texture"><a class="viewcode-back" href="../main2.html#main2.TextureOptimizationModule.compress_texture">[docs]</a>    <span class="k">def</span> <span class="nf">compress_texture</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Сжатие текстур для уменьшения занимаемой памяти.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="TextureOptimizationModule.bake_lighting"><a class="viewcode-back" href="../main2.html#main2.TextureOptimizationModule.bake_lighting">[docs]</a>    <span class="k">def</span> <span class="nf">bake_lighting</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Подсчет освещения и сохранение его в текстуру.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">pass</span></div></div>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Модуль настройки физической симуляции.</span>
+
+<span class="sd">Этот модуль содержит класс PhysicsSettingsModule, который предоставляет методы для настройки физической симуляции сцены.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="PhysicsSettingsModule"><a class="viewcode-back" href="../main2.html#main2.PhysicsSettingsModule">[docs]</a><span class="k">class</span> <span class="nc">PhysicsSettingsModule</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Класс PhysicsSettingsModule содержит методы для настройки физической симуляции сцены.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<div class="viewcode-block" id="PhysicsSettingsModule.set_gravity"><a class="viewcode-back" href="../main2.html#main2.PhysicsSettingsModule.set_gravity">[docs]</a>    <span class="k">def</span> <span class="nf">set_gravity</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Установка значения гравитации в сцене.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">pass</span></div>
+
+<div class="viewcode-block" id="PhysicsSettingsModule.adjust_collision_settings"><a class="viewcode-back" href="../main2.html#main2.PhysicsSettingsModule.adjust_collision_settings">[docs]</a>    <span class="k">def</span> <span class="nf">adjust_collision_settings</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Настройка параметров коллизий между объектами.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">pass</span></div></div>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">3DRedactor</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2024, Aleks.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>
